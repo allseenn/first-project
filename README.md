@@ -27,4 +27,16 @@ echo "Hello, World!"
 
 [Ссылка](https://example.com)
 
+## Mermaid
+
+```mermaid
+graph LR
+    untracked -- "git add" --> staged;
+    staged -- "git commit" --> committed;
+    committed -- "git push"
+
+%% just arrow
+
+    A --> B 
+```
 
