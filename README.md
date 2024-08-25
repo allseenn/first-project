@@ -22,9 +22,19 @@ echo "Hello, World!"
 - пункт 2
 - пункт 3
 
-
 > цитата
 
 [Ссылка](https://example.com)
 
+## Mermaid
 
+```mermaid
+graph LR
+    untracked -- "git add" --> staged;
+    staged -- "git commit" --> committed;
+    committed -- "git push";
+
+%% just arrow
+
+    A --> B 
+```
