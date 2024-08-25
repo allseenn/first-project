@@ -31,8 +31,7 @@ echo "Hello, World!"
 ```mermaid
 graph LR
     untracked -- "git add" --> staged;
-    staged -- "git commit" --> committed;
-    committed -- "git push";
+    staged -- "git commit" --> tracked;
 
 %% just arrow
 
